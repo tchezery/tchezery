@@ -1,0 +1,102 @@
+<DOCTYPE html>
+<html>
+
+ <head><title>P&aacute;gina</title>
+
+ <style>
+	.container {
+		display: grid; 
+		grip-auto-flow: column;
+		gap: 20px;
+	}	
+ </style>
+</head>
+
+
+
+
+  <body>
+  
+  <a
+	href="http://google.com"
+	title="Imagem para link teste">
+		<img 
+			alt="Texto Alternativo"
+			src="download.webp" 
+			width="300"
+			height="150"
+			border="5"
+			style="border: 5px solid #337AB7"	/>
+	</a>
+<br>
+
+<a href="tulo.jpg"
+title="bbbbb"
+target="_blank">
+		<img
+		alt="Texto alternativo"
+		src="file:///C:/Users/laboratorio/Desktop/Sem%20t%C3%ADtulo.jpg"
+		width="300"
+		eigth="120"
+		border="9px solid #545AB5"
+				 />
+</a>
+
+
+
+   <a 
+	href="http://instagram.com" 
+	target="_blank" 	
+	title="Link insta" 
+	name="Instagram"> 
+		<h1>Insta</h1>
+   </a> 
+
+   <h1> HTML - hipertexto de referencia/href 
+	<a name="top"></a>
+   </h1>
+   <h2> HTML - links de texto 
+	<a name="text"></a>
+   </h2>
+   <h3> HTML - Texto de E-mail
+	<a name="email"></a>
+   </h3>
+	<br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br>
+
+<div class="container">
+	<a href="#top">Subir para top</a>
+		<br>
+	<a href="#text">Subir para o txt</a>
+		&nbsp;
+	<a href="#email">Subir email</a>
+		<br>
+	<a href="#Instagram">Insta</a>
+		<br>
+	<a href="mailto:jpapim@gmail.com?subject=Assunto do e-mail body=Texto do email"> Perguntas aqui </a>
+		&nbsp;&nbsp;
+	<a href="file:///C:/Users/laboratorio/Downloads/Aula%203%20-%20Links%20-%20Ancoras_20240829-1915.pdf" target=_blank">Contant Class</a>
+</div>
+
+<a
+	href="http://google.com"
+	title="Imagem para link teste"
+		<img 
+			alt="Texto Alternativo"
+			src="download.jfif" 
+			width="6000"
+			height="1000"
+			border="5"
+			style="border: 5px solid #337AB7"	/>
+	</a>
+
+	
+	
+</body>
+
+
+
+
+</html>
