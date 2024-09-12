@@ -1,0 +1,176 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Table</title>
+	<style>
+		table {
+			margin-left: 60px;
+			border-radius: 10px;
+			border-collapse: separate;
+			overflow: hidden;
+		}
+	</style>
+
+</head>
+
+<body bgcolor="gray">
+	<table border="2 solid black">
+		<tr>
+			<td> Linha 1 , Coluna 1 </td>
+			<td> Linha 1 , Coluna 2 </td>
+		</tr>
+		<tr>
+			<td> Linha 2 , Coluna 1 </td>
+			<td> Linha 2 , Coluna 2 </td>
+		</tr>
+		<tr>
+			<td> Linha 1 , Coluna 1 </td>
+			<td> Linha 1 , Coluna 2 </td>
+		</tr>
+		<tr>
+			<td> Linha 2 , Coluna 1 </td>
+			<td> Linha 2 , Coluna 2 </td>
+		</tr>
+		<tr>
+			<td> Linha 3 , Coluna 1 </td>
+			<td> Linha 3 , Coluna 2 </td>
+		</tr>
+	</table>
+ 
+<br><br><br>
+
+	<table border="3" width="40%">
+		<caption>Languages of schedule</capition>
+			<thead>										
+				<tr> <td colspan="2" align="center">
+				<b>Types of languages</b></td></tr>															
+			</thead>
+								
+			<tfoot>
+				<tr> <td colspan="2" align="center">
+				<b>Classes about tables</b></td></tr>										
+			</tfoot>
+
+			<tbody>
+				<tr>
+				<td rowspan="4">Linguagens <br> para Web </td>
+				<td>C</td>
+				</tr>
+
+				<tr>
+				<td>Python</td>
+				</tr>
+
+				<tr>
+				<td>Java</td>
+				</tr>
+
+				<tr>
+				<td>PHP</td>
+				</tr>
+
+				<tr>
+				<td rowspan="4">Languages <br> for Web </td>
+				<td>C</td>
+				</tr>
+
+				<tr>
+				<td>Python</td>
+				</tr>
+
+				<tr>
+				<td>Java</td>
+				</tr>
+
+				<tr>
+				<td>PHP</td>
+				</tr>
+			</tbody>	
+	</table>
+
+<br><br><br>
+		
+	<table border="5" width="80%">
+	    <tr>	
+		<th bgcolor="#FF0000">Column 1</th>
+		<th bgcolor="#00FF00">Column 2</th>
+		<th bgcolor="#0000FF">Column 3</th>
+		<th bgcolor="#FF0000">Column 4</th>
+		<th bgcolor="#00FF00">Column 5</th>
+		<th bgcolor="#0000FF">Column 6</th>
+	    </tr>				
+	
+	    <tr>
+		<td bgcolor="#0000FF">line 3, column 1 </td>
+		<td bgcolor="#0000FF">line 3, column 2 </td>
+		<td bgcolor="#0000FF">line 3, column 3 </td>
+		<td bgcolor="#0000FF">line 3, column 4 </td>
+		<td bgcolor="#0000FF">line 3, column 5 </td>
+		<td bgcolor="#0000FF">line 3, column 6 </td>
+	    </tr>
+	    <tr>
+		<td bgcolor="#0000FF">line 3, column 1 </td>
+		<td bgcolor="#0000FF">line 3, column 2 </td>
+		<td bgcolor="#0000FF">line 3, column 3 </td>
+		<td bgcolor="#0000FF">line 3, column 4 </td>
+		<td bgcolor="#0000FF">line 3, column 5 </td>
+		<td bgcolor="#0000FF">line 3, column 6 </td>
+	    </tr>
+	    <tr>
+		<td bgcolor="#0000FF">line 3, column 1 </td>
+		<td bgcolor="#0000FF">line 3, column 2 </td>
+		<td bgcolor="#0000FF">line 3, column 3 </td>
+		<td bgcolor="#0000FF">line 3, column 4 </td>
+		<td bgcolor="#0000FF">line 3, column 5 </td>
+		<td bgcolor="#0000FF">line 3, column 6 </td>
+	    </tr>
+
+	</table>
+
+<br><br><br><br><br><br>
+
+	<table border="5" width="80%" background="file:///C:/Users/laboratorio/Desktop/tchezery/3/download.jfif">
+	    <tr>	
+		<th bgcolor="#FF0000">Column 1</th>
+		<th bgcolor="#00FF00">Column 2</th>
+		<th bgcolor="#0000FF">Column 3</th>
+	    </tr>				
+	
+	    <tr>
+		<td><font color="#FFFFFF">line 3, column 3 </font></td>
+		<td>line 3, column 2 </td>
+		<td><font color="#FFFFFF">line 3, column 3 </font></td>
+	    </tr>
+	    <tr>
+		<td>line 3, column 1 </td>
+		<td>line 3, column 2 </td>
+		<td>line 3, column 3 </td>
+	    </tr>
+	    <tr>
+		<td><font color="#FFFFFF">line 3, column 1 </font></td>
+		<td><font color="#FFFFFF">line 3, column 2 </font></td>
+		<td><font color="#FFFFFF">line 3, column 3 </font></td>
+	    </tr>
+	    <tr>
+		<td>line 3, column 1 </td>
+		<td>line 3, column 2 </td>
+		<td>line 3, column 3 </td>
+	    </tr>
+	    <tr>
+		<td><font color="#FFFFFF">line 3, column 3 </font></td>
+		<td><font color="#FFFFFF">line 3, column 3 </font></td>
+		<td><font color="#FFFFFF">line 3, column 3 </font></td>
+	    </tr>
+
+	</table>
+	
+	<table border="4">
+		<capition>Exercise</capition>
+			<tr bgcolor="white"><td>TEXT 1</td><td>TEXT 2</td><td>TEXT 3</td><td>TEXT 4</td></tr>
+			<tr bgcolor="white"><td colspan="4" align="center">TEXT5</td></tr>
+			<tr bgcolor="white"><td colspan="2" align="center">TEXT 6</td><td>TEXT 7</td><td>TEXT 8</td></tr>
+			<tr bgcolor="white"><td>TEXT 9</td><td>TEXT 10</td><td colspan="2" align="center">TEXT 11</td></tr>
+	</table>
+	
+</body>
+</html>
