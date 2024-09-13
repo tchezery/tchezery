@@ -1,0 +1,95 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Form Page</title>
+   <style>
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+	button, input {
+	    transition: all 5s ease;
+	}
+
+	green:hover {
+	    text-color: green; 
+	}
+
+ 	button:hover {
+            background-color: #0056b3; 
+	    width: 50px;
+	    height: 30px;
+        }
+
+ 	input:hover {
+            background-color: gray; 
+	    width: 60px;
+	    height: 20px;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+<form method="post" action="send.html">
+   <label>Name:</label>
+     <input type="text" size="10"
+            maxlength="40" name="name"/><br />			 
+
+   <label>Password:</label>
+     <input type="password" size="10"
+	    maxlength="10" name="password"/><br />
+<hr><br>
+<label>Brand:</label> <br />
+  <input type="radio" name="brand" value="samsung">
+	Samsung <br />
+  <input type="radio" name="brand" value="iphone">
+	Iphone <br />
+  <input type="radio" name="brand" value="xiome">
+	Xiome <br />
+
+<br><br>
+
+<label>Amount Gigabites:</label> <br />
+  <input type="radio" name="amount_gigabites" value="128GB">
+	128GB <br />
+  <input type="radio" name="amount_gigabites" value="286GB">
+	286GB <br />
+  <input type="radio" name="amount_gigabites" value="1T">
+	1T <br />
+
+<br><br>
+
+<p>What color do you want?</p>
+  <input class="green" type="checkbox" name="color" value="green">
+	Green <br />
+  <input class="gray" type="checkbox" name="color" value="gray">
+	Gray <br />
+  <input class="white" type="checkbox" name="color" value="white">
+	White <br />
+
+<br><br>
+
+<p>Phone Model:</p>
+
+  <select multiple name="Model" size="2"> 
+	<option value="normal" >Normal</option>
+	<option value="pro" >Pro</option>
+	<option value="pro_max" >Pro Max</option>
+	<option value="ultra" >Ultra</option>
+  </select><br />
+
+<br>
+   <button>Send</button>
+	<input type="submit" value="Send too!!">
+
+
+</form>
+</body>
+</html>
